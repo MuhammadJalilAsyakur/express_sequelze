@@ -1,4 +1,4 @@
-const { User } = require('../models/user');
+const { User } = require('../models');
 
 module.exports = {
     getAlluser: async (req, res) => {
@@ -8,5 +8,6 @@ module.exports = {
             data: users
         });
     }
+
 }
 
